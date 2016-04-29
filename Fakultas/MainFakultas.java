@@ -15,8 +15,8 @@ public class MainFakultas {
         String b=input.nextLine();
         System.out.print("Masukkan Jurusan : ");
         String c=input.nextLine();
-        if (c.equalsIgnoreCase("Informatika")||c.equalsIgnoreCase("1")){
         Fakultas f1 = new Fakultas("Ilmu Komputer","Brawijaya Malang","Prof. Dr. Ir. Mohammad Bisri, M.S");
+        if (c.equalsIgnoreCase("Informatika")||c.equalsIgnoreCase("1")){
         Informatika I1= new Informatika("Komputasi Cerdas & Visualisasi","Komputasi Cerdas","Candra Dewi, S.Kom, M.Sc","Drs. Marji, MT","","","");
         Informatika I2= new Informatika();
         I2.setInformatika(a,b,"Informatika");
@@ -28,12 +28,8 @@ public class MainFakultas {
         System.out.println("Keminatan    : "+I1.getMinat());
         System.out.println("Dosen        : "+I1.getDosen());
         System.out.println("Ketua Prodi  : "+I1.getKetua());
-        System.out.println("Fakultas     : "+f1.getNamafak());
-        System.out.println("Universitas  : "+f1.getUniv());
-        System.out.println("Rektor       : "+f1.getRektor());
-        System.out.println();}
+        }
         else if (c.equalsIgnoreCase("Sistem Informasi")||c.equalsIgnoreCase("2")){
-            Fakultas f1 = new Fakultas("Ilmu Komputer","Brawijaya Malang","Prof. Dr. Ir. Mohammad Bisri, M.S");
         SistemInformasi S1= new SistemInformasi("Jaringan Komputer","Basis Data","Sabriansyah Rizqika Akbar, S.T, M.Eng","Suprapto, ST., MT","","","");
         SistemInformasi S2= new SistemInformasi();
         S2.setSi(a,b,"Sistem Informasi");
@@ -45,13 +41,8 @@ public class MainFakultas {
         System.out.println("Keminatan    : "+S1.getMinat());
         System.out.println("Dosen        : "+S1.getDosen());
         System.out.println("Ketua Prodi  : "+S1.getKetua());
-        System.out.println("Fakultas     : "+f1.getNamafak());
-        System.out.println("Universitas  : "+f1.getUniv());
-        System.out.println("Rektor       : "+f1.getRektor());
-        System.out.println();
         }
         else {
-            Fakultas f1 = new Fakultas("Ilmu Komputer","Brawijaya Malang","Prof. Dr. Ir. Mohammad Bisri, M.S");
         SistemKomputer K1= new SistemKomputer("Robotika","Robotik","Barlian Henryranu Prasetio, S.T, M.T","Adharul Muttaqin, ST, MT","","","");
         SistemKomputer K2= new SistemKomputer();
         K2.setSk(a,b,"Sistem Komputer");
@@ -68,15 +59,8 @@ public class MainFakultas {
         System.out.println("Rektor       : "+f1.getRektor());
         System.out.println();
            }
+        System.out.println("Fakultas     : "+f1.getNamafak());
+        System.out.println("Universitas  : "+f1.getUniv());
+        System.out.println("Rektor       : "+f1.getRektor());
     }
 }
-        
-        
-
-    
-    
-    
-    
-       
-        
-
