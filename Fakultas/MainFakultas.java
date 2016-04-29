@@ -15,7 +15,7 @@ public class MainFakultas {
         String b=input.nextLine();
         System.out.print("Masukkan Jurusan : ");
         String c=input.nextLine();
-        Fakultas f1 = new Fakultas("Ilmu Komputer","Brawijaya Malang","Prof. Dr. Ir. Mohammad Bisri, M.S");
+         Fakultas f1 = new Fakultas("Ilmu Komputer","Brawijaya Malang","Prof. Dr. Ir. Mohammad Bisri, M.S");
         if (c.equalsIgnoreCase("Informatika")||c.equalsIgnoreCase("1")){
         Informatika I1= new Informatika("Komputasi Cerdas & Visualisasi","Komputasi Cerdas","Candra Dewi, S.Kom, M.Sc","Drs. Marji, MT","","","");
         Informatika I2= new Informatika();
@@ -27,8 +27,7 @@ public class MainFakultas {
         System.out.println("Laboratorium : "+I1.getLab());
         System.out.println("Keminatan    : "+I1.getMinat());
         System.out.println("Dosen        : "+I1.getDosen());
-        System.out.println("Ketua Prodi  : "+I1.getKetua());
-        }
+        System.out.println("Ketua Prodi  : "+I1.getKetua());}
         else if (c.equalsIgnoreCase("Sistem Informasi")||c.equalsIgnoreCase("2")){
         SistemInformasi S1= new SistemInformasi("Jaringan Komputer","Basis Data","Sabriansyah Rizqika Akbar, S.T, M.Eng","Suprapto, ST., MT","","","");
         SistemInformasi S2= new SistemInformasi();
@@ -54,10 +53,6 @@ public class MainFakultas {
         System.out.println("Keminatan    : "+K1.getMinat());
         System.out.println("Dosen        : "+K1.getDosen());
         System.out.println("Ketua Prodi  : "+K1.getKetua());
-        System.out.println("Fakultas     : "+f1.getNamafak());
-        System.out.println("Universitas  : "+f1.getUniv());
-        System.out.println("Rektor       : "+f1.getRektor());
-        System.out.println();
            }
         System.out.println("Fakultas     : "+f1.getNamafak());
         System.out.println("Universitas  : "+f1.getUniv());
