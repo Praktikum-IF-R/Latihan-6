@@ -40,9 +40,9 @@ public class MainFakultas {
                 inf.setMinat("Kecerdasan Buatan");
                 inf.setDosen("Candra Dewi");
                 inf.setKetua("Candra Dewi");
-                System.out.println("Fakultas \t: " + filkom.getFakul());
-                System.out.println("Rektor \t\t: " + filkom.getRekt());
-                System.out.println("Universitas \t: " + filkom.getUniv());
+                System.out.println("Fakultas \t: " + inf.getFakul());
+                System.out.println("Rektor \t\t: " + inf.getRekt());
+                System.out.println("Universitas \t: " + inf.getUniv());
                 System.out.println("Laboratorium \t: " + inf.getLab());
                 System.out.println("Keminatan \t: " + inf.getMinat());
                 System.out.println("Dosen \t\t: " + inf.getDosen());
@@ -53,9 +53,9 @@ public class MainFakultas {
                 sis.setMinat("Robotika");
                 sis.setDosen("Wijaya Kurniawan");
                 sis.setKetua("Wijaya Kurniawan");
-                System.out.println("Fakultas \t: " + filkom.getFakul());
-                System.out.println("Rektor \t\t: " + filkom.getRekt());
-                System.out.println("Universitas \t: " + filkom.getUniv());
+                System.out.println("Fakultas \t: " + sis.getFakul());
+                System.out.println("Rektor \t\t: " + sis.getRekt());
+                System.out.println("Universitas \t: " + sis.getUniv());
                 System.out.println("Laboratorium \t: " + sis.getLab());
                 System.out.println("Keminatan \t: " + sis.getMinat());
                 System.out.println("Dosen \t\t: " + sis.getDosen());
@@ -66,9 +66,9 @@ public class MainFakultas {
                 sif.setMinat("Database");
                 sif.setDosen("Gon Freeccs");
                 sif.setKetua("Gon Freeccs");
-                System.out.println("Fakultas \t: " + filkom.getFakul());
-                System.out.println("Rektor \t\t: " + filkom.getRekt());
-                System.out.println("Universitas \t: " + filkom.getUniv());
+                System.out.println("Fakultas \t: " + sif.getFakul());
+                System.out.println("Rektor \t\t: " + sif.getRekt());
+                System.out.println("Universitas \t: " + sif.getUniv());
                 System.out.println("Laboratorium \t: " + sif.getLab());
                 System.out.println("Keminatan \t: " + sif.getMinat());
                 System.out.println("Dosen \t\t: " + sif.getDosen());
@@ -78,7 +78,7 @@ public class MainFakultas {
                 System.exit(0);
             }
 
-        } while (prod !="EX");
+        } while (prod.equalsIgnoreCase("EX"));
 
     }
 }
