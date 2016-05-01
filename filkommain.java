@@ -1,10 +1,7 @@
 package lap6inherit;
 
-import java.util.Scanner;
-
 public class filkommain {
     public static void main(String[] args) {
-        Scanner in=new Scanner(System.in);
         informatika tif=new informatika();
         sisteminformasi si= new sisteminformasi();
         sistemkomputer sk= new sistemkomputer();
